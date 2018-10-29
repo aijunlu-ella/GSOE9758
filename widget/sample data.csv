@@ -1,0 +1,4 @@
+name,lat,lng,start,end,load,priority
+location error,-33.912905,151.239798,6:00,9:00,1,high
+item error,-33.904514,151.20602,9:00,12:00,20,high
+success,-33.904514,151.20602,6:00,,1,low
