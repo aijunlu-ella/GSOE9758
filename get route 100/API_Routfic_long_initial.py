@@ -1,4 +1,5 @@
-# Step 1: Import http client and set routific vrp url
+##written by z5196135
+##using 98 random locations in sampledata csv to generate an optimal route by routific apis and store it into route.csv 
 import urllib.request
 import json
 import csv
