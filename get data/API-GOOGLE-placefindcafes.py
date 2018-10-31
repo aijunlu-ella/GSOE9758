@@ -15,7 +15,7 @@ def isfloat(n):
         return False
 
 endpoint = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?'
-api_key = 'AIzaSyDQiWUJhriaJNxeKJ97X7wS7mp7dCUDtKQ'
+api_key = '#####your API key from google##########'
 lat = input('lat ').replace(' ','+')
 lng = input('lng ').replace(' ','+')
 filename = input('What is your csv file name')+'.csv'
