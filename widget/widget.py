@@ -17,7 +17,7 @@ URL   = "https://api.routific.com/v1/vrp-long"
 
 URL2 = "https://api.routific.com/jobs/"
 
-token = "A1E-NwVOSObFDOwUcRtljla294Q8U3ir5t"
+token = "#####your token from ubidots##########"
 
 def frange(start,stop, step=1.0):
     while start < stop:
@@ -109,7 +109,7 @@ def get_orders(filename):
 
     ## Put together request
     # This is your demo token
-	token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmI5NzFmZDdjN2MzYzFiZTI2OGMxNDIiLCJpYXQiOjE1Mzg4Nzk5OTd9.myeEHT1p4p41uaHR-2f_U8PHg1erqvnkjZ0Sj5YAwXk'
+	token = "#####your token from routific##########"
 	
 	req = urllib.request.Request(URL, json.dumps(data).encode('utf-8'))
 	req.add_header('Content-Type', 'application/json')
