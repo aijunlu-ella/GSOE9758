@@ -4,7 +4,7 @@ import urllib.request
 import json
 
 endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-api_key = 'AIzaSyDQiWUJhriaJNxeKJ97X7wS7mp7dCUDtKQ'
+api_key = '#####your API key from google##########'
 origin = input('Where are you? ').replace(' ','+')
 destination = input('Where do you want to go?').replace(' ','+')
 
