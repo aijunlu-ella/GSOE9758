@@ -1,4 +1,4 @@
-# Step 1: Import http client and set routific vrp url
+##this is an example from routific api documents
 import urllib.request
 import json
 
