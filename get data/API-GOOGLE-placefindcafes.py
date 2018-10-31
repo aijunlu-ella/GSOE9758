@@ -1,5 +1,5 @@
 ##written by z5196135
-##This application is written for generating location data from google api
+##This application is written for generating location data from google api as our sampledata in next stage 
 ##search for cafes in certain area
 import urllib.request
 import json
