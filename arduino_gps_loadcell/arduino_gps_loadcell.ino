@@ -1,4 +1,5 @@
 //written by z5196135
+//configure gps and load cell and upload to ubidots
 
 #include <UbidotsYUN.h>
 #include <SoftwareSerial.h>
